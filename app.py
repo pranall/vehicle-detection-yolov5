@@ -9,7 +9,7 @@ st.write("Upload an image to detect: Ambulance, Bus, Car, Motorcycle, Truck")
 
 @st.cache_resource
 def load_model():
-    model = torch.hub.load('ultralytics/yolov5', 'custom', path='best.pt', force_reload=True)
+    model = torch.hub.load('ultralytics/yolov5', 'custom', path='best.pt', force_reload=False, device='cpu')
     return model
 
 model = load_model()

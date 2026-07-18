@@ -4,3 +4,14 @@ opencv-python-headless
 Pillow
 numpy
 streamlit
+ultralytics>=8.4.83
+gitpython
+psutil
+PyYAML
+requests
+scipy
+thop
+tqdm
+pandas
+seaborn
+setuptools
